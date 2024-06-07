@@ -4,6 +4,7 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
+  "docker-proxy.aigear.top": "https://registry-1.docker.io",
   "docker.libcuda.so": "https://registry-1.docker.io",
   "quay.libcuda.so": "https://quay.io",
   "gcr.libcuda.so": "https://gcr.io",
